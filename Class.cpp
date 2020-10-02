@@ -1,7 +1,7 @@
 #include <iostream>
 #include<string.h>
 using namespace std;
-class Student {
+class Students {
   int a, std;
   char b[100], c[100];
 
@@ -18,7 +18,7 @@ public:
   }
 };
 int main() {
-  Student ob;
+  Students ob;
   ob.set_age();
   ob.set_first_name();
   ob.set_last_name();
